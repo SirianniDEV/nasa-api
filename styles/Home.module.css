@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Orbitron:wght@500&family=Trispace&display=swap');
+
 .container {
-  padding: 0 2rem;
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homeNav{
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
@@ -10,15 +25,117 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-family: Orbitron;
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
 }
 
+.homeNav > ul {
+  font-family: Trispace;
+}
+
+.button {
+  background: linear-gradient(180deg, rgba(34, 156, 183, 0.82) 0%, rgba(6, 16, 35, 0.738) 49.13%, rgba(34, 156, 183, 0.82) 100%);
+  border: 1px solid #DEE1FF;
+  box-shadow: 0px 1px 5px -1px #7595AD;
+  border-radius: 2px;
+  color: #2D92A8;
+  font-family: Orbitron;
+  font-size: 20px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.button:hover {
+  background: linear-gradient(180deg, rgba(6, 16, 35, 0.738) 0%, rgba(34, 156, 183, 0.82) 49.13%, rgba(6, 16, 35, 0.738) 100%);
+  border: 1px solid #DEE1FF;
+  box-shadow: 0px 1px 5px -1px #7595AD;
+  color: #061023;
+}
+
+
+.header{
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
+  text-align: center;
+  font-family: Orbitron;
+  margin: 0px;
+  padding: 10px;
+}
+.main > h1{
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
+  text-align: center;
+  font-family: Orbitron;
+  margin: 0px;
+  padding: 10px;
+}
+
+.main > p{
+  color: #F2F2F2;
+  text-align: center;
+  font-family: Trispace;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+.table {
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
+  text-align: center;
+  font-family: Orbitron;
+  font-size: 16px;
+  width: 75vw;
+}
+
+.Image {
+  margin: 10px;
+  background: #D9D9D9;
+  border: 1px solid #DEE1FF;
+  box-shadow: 0px 1px 5px 2px #48799F;
+  border-radius: 2px;
+}
+
+.Image:hover {
+  transform: scale(2); 
+}
+
+.epicImage {
+  margin: 10px;
+  background: #D9D9D9;
+  border: 1px solid #DEE1FF;
+  box-shadow: 0px 1px 5px 2px #48799F;
+  border-radius: 2px;
+  
+}
+
+
+.info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
+  text-align: center;
+  font-family: Orbitron;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+
 .footer {
+  margin-top: 50px;
   display: flex;
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
+  color: #F2F2F2;
+  text-shadow: 0px 1px 5px #5869FF;
 }
 
 .footer a {
