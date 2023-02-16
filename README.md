@@ -6,6 +6,6 @@ Using two of NASA's APIs, EPIC and TechTransfer to display thier information for
 - Axios
 
 # Installaion
- npm install
- yarm install
+- npm install
+- yarn install
 
